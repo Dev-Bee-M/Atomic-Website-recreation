@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #909090;
+}
+h1{
+    margin-left: 50px;
+}
+button{
+    font-weight: 600;
+    font-size: 14px;
+}
+button:hover{
+    background-color: #033e09;
+}
+.navbar{
+    width: 150%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 6px;
+}
+a:hover{
+    color: rgb(230, 104, 59);
+}
+.nav-button{
+    margin-left: 23vw;
+}
+.nav-button button{
+    width: 100px;
+    float: left;
+    height: 40px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.219);
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+    outline: none;
+    padding-left: 50px 100px;
+    margin: 10px;
+    color: #033e09;
+    transition: .3 ease;
+}
+#registerBtn{
+    color: black;
+    background: white;
+    margin-right: 100px;
+    color: #033e09;
+    transition: .3 ease;
+    
+}
+#registerBtn:hover{
+    background-color: #579d5f;
+}
+#loginBtn{
+    color: white;
+    background: rgb(30, 98, 30); 
+    margin-left: 150px; 
+    color: #033e09;
+    transition: .3 ease; 
+}
+#loginBtn:hover{
+    background-color: #fff;
+}
+
+.content{
+    width: 1200px;
+    display: flex;
+    height: auto;
+    margin-left: 1px;
+    color: black;
+    position: relative;
+}
+.content .par{
+    padding-bottom: 25px;
+    margin: 10px;
+    padding-top: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: inherit;
+    padding-left: 50px;
+}
+
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 0.5px;
+    margin-top: 9%;
+}
+.left{
+    position: relative;
+}
+.right img{
+    width: 60vw;
+    position: absolute;
+}
+.dw{
+    padding: 3% 8%;
+    background: rgb(30, 98, 30); 
+    color: #fff;
+    margin: 50px;
+    border-radius: 6px;
+    border: none;
+}
